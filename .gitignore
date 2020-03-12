@@ -5,3 +5,4 @@
 /src/**/*.js.map
 /src/**/*.ts.map
 /src/**/*.d.ts
+/patching/

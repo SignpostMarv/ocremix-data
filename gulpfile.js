@@ -9,6 +9,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify-es').default;
 const tsProject = typescript.createProject('./tsconfig.json')();
 const merge = require('merge-stream');
+const bsdiff = require('bsdiff-nodejs');
 
 exports.cacheIpfsTreeAsJson = async (cb) => {
 	const ipfs = await require('ipfs').create();
@@ -109,3 +110,19 @@ exports.default = parallel(...[
 	exports.ts,
 	exports.cacheIpfsTreeAsJson,
 ]);
+
+exports.mp3patch = async () => {
+	return await bsdiff.diff(
+		'./patching/broken.mp3',
+		'./patching/fixed.mp3',
+		'./patching/patch.bdiff'
+	);
+};
+
+exports.testmp3patch = async () => {
+	return await bsdiff.patch(
+		'./patching/broken.mp3',
+		'./patching/fresh.mp3',
+		'./patching/patch.bdiff'
+	);
+};
