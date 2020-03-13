@@ -37,13 +37,7 @@ import { artist as dish } from '../artists/15577.js';
 import { artist as protodome } from '../artists/5178.js';
 */
 
-export const OCRA0025: AlbumWithArt = {
-	id: 'OCRA0025',
-	path: '/Albums/Sonic the Hedgehog - The Sound of Speed',
-	name: 'Sonic the Hedgehog - The Sound of Speed',
-	art: {
-		covers: [
-			{
+const cover = {
 				subpath: '/Artwork/Front embed.png',
 				width: 700,
 				height: 700,
@@ -53,7 +47,15 @@ export const OCRA0025: AlbumWithArt = {
 						width: 2000,
 					},
 				],
-			},
+};
+
+export const OCRA0025: AlbumWithArt = {
+	id: 'OCRA0025',
+	path: '/Albums/Sonic the Hedgehog - The Sound of Speed',
+	name: 'Sonic the Hedgehog - The Sound of Speed',
+	art: {
+		covers: [
+			cover,
 			{
 				subpath: '/Artwork/Back [ProtoDome].png',
 				width: 2000,
@@ -68,8 +70,11 @@ export const OCRA0025: AlbumWithArt = {
 			srcset: [],
 		},
 	},
-	discs: {
-		'': [
+	discs: [
+		{
+			name: '',
+			index: 1,
+			tracks: [
 			{
 				subpath: '/MP3/01 A, B, C, Start!.mp3',
 				name: 'A, B, C, Start!',
@@ -183,7 +188,25 @@ export const OCRA0025: AlbumWithArt = {
 				],
 			},
 		],
+		art: [
+			cover,
+			{
+				subpath: '/Artwork/Logo [ProtoDome].jpg',
+				width: 2258,
+				height: 962,
+				srcset: [
+				],
+			},
+			{
+				subpath: '/Artwork/Sonic [Denny \'dish\' Iskandar].png',
+				width: 3002,
+				height: 1628,
+				srcset: [
+				],
+			},
+		],
 	},
+	],
 	credits: {
 		directors: [
 			halc,
@@ -221,6 +244,9 @@ export const OCRA0025: AlbumWithArt = {
 		artwork: [
 			dish,
 			protodome,
+			/*
+			oceansandrew, // background image?
+			*/
 		],
 	},
 };

@@ -23,24 +23,27 @@ import { artist as yasunorimitsuda } from '../artists/4.js';
 
 import { artist as eonblue } from '../artists/8363.js';
 
+const CD1Label = {
+				subpath: '/Artwork/CD1 Label.jpg',
+				width: 1417,
+				height: 1417,
+				srcset: []
+};
+const CD2Label = {
+				subpath: '/Artwork/CD2 Label.jpg',
+				width: 1417,
+				height: 1417,
+				srcset: []
+};
+
 export const OCRA0006: AlbumWithArt = {
 	id: 'OCRA0006',
 	path: '/Albums/Chrono Symphonic',
 	name: 'Chrono Symphonic',
 	art: {
 		covers: [
-			{
-				subpath: '/Artwork/CD1 Label.jpg',
-				width: 1417,
-				height: 1417,
-				srcset: []
-			},
-			{
-				subpath: '/Artwork/CD2 Label.jpg',
-				width: 1417,
-				height: 1417,
-				srcset: []
-			},
+			CD1Label,
+			CD2Label,
 			{
 				subpath: '/Artwork/CD Back.jpg',
 				width: 1771,
@@ -55,8 +58,11 @@ export const OCRA0006: AlbumWithArt = {
 			srcset: [],
 		},
 	},
-	discs: {
-		'Disc 1 - Fire / Light': [
+	discs: [
+		{
+			name: 'Fire / Light',
+			index: 1,
+			tracks: [
 			{
 				subpath: '/Chrono Symphonic (mp3 version)/CD1/Chrono_Symphonic_01_Inciting_Incident.mp3',
 				name: 'Inciting Incident',
@@ -171,7 +177,20 @@ export const OCRA0006: AlbumWithArt = {
 				],
 			},
 		],
-		'Disc 2 - Shadow / Ice': [
+			art: [
+				CD1Label,
+				{
+					subpath: '/Artwork/Wallpaper 01 (1024x768).jpg',
+					width: 1024,
+					height: 768,
+					srcset: [],
+				},
+			],
+		},
+		{
+			name: 'Shadow / Ice',
+			index: 2,
+			tracks: [
 			{
 				subpath: '/Chrono Symphonic (mp3 version)/CD2/Chrono_Symphonic_15_Manifest_Destiny.mp3',
 				name: 'Manifest Destiny',
@@ -265,7 +284,17 @@ export const OCRA0006: AlbumWithArt = {
 				],
 			},
 		],
-	},
+			art: [
+				CD2Label,
+				{
+					subpath: '/Artwork/Wallpaper 02 (1024x768).jpg',
+					width: 1024,
+					height: 768,
+					srcset: [],
+				},
+			],
+		},
+	],
 	credits: {
 		directors: [
 			claadoshou,

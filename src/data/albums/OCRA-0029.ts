@@ -37,27 +37,19 @@ import { artist as toruminegishi } from '../artists/542.js';
 import { artist as lisacoffman } from '../artists/15574.js';
 import { artist as paulveer } from '../artists/15573.js';
 
-
-export const OCRA0029: AlbumWithArt = {
-	id: 'OCRA0029',
-	path: '/Albums/25YEARLEGEND - A Legend of Zelda Indie Game Composer Tribute',
-	name: '25YEARLEGEND - A Legend of Zelda Indie Game Composer Tribute',
-	art: {
-		covers: [
-			{
+const cover1 = {
 				subpath: '/Artwork/Front (Legend) [Lisa Coffman].png',
 				width: 700,
 				height: 700,
 				srcset: []
-			},
-			{
+};
+const cover2 = {
 				subpath: '/Artwork/Front (Triforce OCR Logo Edit) [Paul Veer, Liontamer].png',
 				width: 700,
 				height: 700,
 				srcset: []
-			},
-		],
-		background: {
+};
+const background = {
 			subpath: '/Artwork/Front (Triforce) 500 [Paul Veer].png',
 			width: 500,
 			height: 500,
@@ -71,10 +63,24 @@ export const OCRA0029: AlbumWithArt = {
 					width: 1000,
 				},
 			]
-		}
+};
+
+export const OCRA0029: AlbumWithArt = {
+	id: 'OCRA0029',
+	path: '/Albums/25YEARLEGEND - A Legend of Zelda Indie Game Composer Tribute',
+	name: '25YEARLEGEND - A Legend of Zelda Indie Game Composer Tribute',
+	art: {
+		covers: [
+			cover1,
+			cover2,
+		],
+		background,
 	},
-	discs: {
-		'': [
+	discs: [
+		{
+			name: '',
+			index: 1,
+			tracks: [
 			{
 				subpath: '/MP3/01 Disasterpeace - Chamber of the Goddess [A Link to the Past].mp3',
 				name: 'Chamber of the Goddess [A Link to the Past]',
@@ -239,7 +245,13 @@ export const OCRA0029: AlbumWithArt = {
 				],
 			},
 		],
+		art: [
+			cover1,
+			cover2,
+			background,
+		],
 	},
+	],
 	credits: {
 		directors: [
 			rekcahdam,

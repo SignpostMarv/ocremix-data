@@ -43,8 +43,11 @@ export const OCRA0008: Album = {
 	id: 'OCRA0008',
 	path: '/Albums/Sonic 3 and Knuckles - Project Chaos',
 	name: 'Sonic 3 and Knuckles - Project Chaos',
-	discs: {
-		"Disc 1": [
+	discs: [
+		{
+			name: 'Disc 1',
+			index: 1,
+			tracks: [
 			{
 				subpath: "/101 - SnappleMan - Sonic the Hedgehog and Knuckles (Title).mp3",
 				name: "Sonic the Hedgehog and Knuckles (Title)",
@@ -126,8 +129,13 @@ export const OCRA0008: Album = {
 				],
 			},
 		],
-		"Disc 2": [
-
+			art: [
+			],
+		},
+		{
+			name: 'Disc 2',
+			index: 2,
+			tracks: [
 			{
 				subpath: "/201 - GaMeBoX - iMushroom (Mushroom Hill).mp3",
 				name: "iMushroom (Mushroom Hill)",
@@ -221,7 +229,13 @@ export const OCRA0008: Album = {
 				],
 			},
 		],
-		"Disc 3": [
+			art: [
+			],
+		},
+		{
+			name: 'Disc 3',
+			index: 3,
+			tracks: [
 			{
 				subpath: "/301 - chthonic - Red Sphere, Blue Sphere (Special Stage).mp3",
 				name: "Red Sphere, Blue Sphere (Special Stage)",
@@ -341,8 +355,11 @@ export const OCRA0008: Album = {
 					'Xenon Odyssey',
 				],
 			} as BrokenTrack,
-		]
-	},
+			],
+			art: [
+			],
+		},
+	],
 	credits: {
 		directors: [
 			kungfuchicken,
