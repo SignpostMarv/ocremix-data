@@ -1,7 +1,6 @@
-# OC ReMix IPFS Data
-Data for accessing OC ReMix content via IPFS
+# OC ReMix Data
+Data relating to OC ReMix content.
 
-## Build
-1) `npm install`
-2) `gulp cacheIpfsTreeAsJson` - this may take multiple attempts
-3) `gulp`
+# See Also
+* [ocremix-ipfs-data](https://github.com/SignpostMarv/ocremix-ipfs-data)
+* [OC ReMix IPFS Portal](https://github.com/SignpostMarv/OC-ReMix-IPFS-Portal)
