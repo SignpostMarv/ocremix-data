@@ -400,3 +400,5 @@ export const OCRA0008: Album = {
 		artwork: [],
 	},
 };
+
+export default OCRA0008;
