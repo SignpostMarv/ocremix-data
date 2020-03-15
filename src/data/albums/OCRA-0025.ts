@@ -38,15 +38,15 @@ import { artist as protodome } from '../artists/5178.js';
 */
 
 const cover = {
-				subpath: '/Artwork/Front embed.png',
-				width: 700,
-				height: 700,
-				srcset: [
-					{
-						subpath: '/Artwork/Front [Denny \'dish\' Iskandar, ProtoDome].png',
-						width: 2000,
-					},
-				],
+	subpath: '/Artwork/Front embed.png',
+	width: 700,
+	height: 700,
+	srcset: [
+		{
+			subpath: '/Artwork/Front [Denny \'dish\' Iskandar, ProtoDome].png',
+			width: 2000,
+		},
+	],
 };
 
 export const OCRA0025: AlbumWithArt = {
@@ -75,137 +75,137 @@ export const OCRA0025: AlbumWithArt = {
 			name: '',
 			index: 1,
 			tracks: [
-			{
-				subpath: '/MP3/01 A, B, C, Start!.mp3',
-				name: 'A, B, C, Start!',
-				index: 1,
-				credits: [
-					halc,
-					oceansandrew,
-				],
-			},
-			{
-				subpath: '/MP3/02 The Sound of Speed.mp3',
-				name: 'The Sound of Speed',
-				index: 2,
-				credits: [
-					oceansandrew,
-					scaredsim,
-				],
-			},
-			{
-				subpath: '/MP3/03 Shifting Islands.mp3',
-				name: 'Shifting Islands',
-				index: 3,
-				credits: [
-					halc,
-					miearth,
-					protodome,
-				],
-			},
-			{
-				subpath: '/MP3/04 Subsonic Sparkle.mp3',
-				name: 'Subsonic Sparkle',
-				index: 4,
-				credits: [
-					gamebox,
-				],
-			},
-			{
-				subpath: '/MP3/05 Spring Junkie.mp3',
-				name: 'Spring Junkie',
-				index: 5,
-				credits: [
-					halc,
-				],
-			},
-			{
-				subpath: '/MP3/06 Bubble Junkie.mp3',
-				name: 'Bubble Junkie',
-				index: 6,
-				credits: [
-					benbriggs,
-				],
-			},
-			{
-				subpath: '/MP3/07 Fifty Rings to Ride.mp3',
-				name: 'Fifty Rings to Ride',
-				index: 7,
-				credits: [
-					joshuamorse,
-				],
-			},
-			{
-				subpath: '/MP3/08 Under Construction.mp3',
-				name: 'Under Construction',
-				index: 8,
-				credits: [
-					drumultima,
-					harmony,
-				],
-			},
-			{
-				subpath: '/MP3/09 Hogtied.mp3',
-				name: 'Hogtied',
-				index: 9,
-				credits: [
-					brandonstrader,
-					rexy,
-				],
-			},
-			{
-				subpath: '/MP3/10 Caos.mp3',
-				name: 'Caos',
-				index: 10,
-				credits: [
-					josethebronxrican,
-				],
-			},
-			{
-				subpath: '/MP3/11 Clockwork Criminal.mp3',
-				name: 'Clockwork Criminal',
-				index: 11,
-				credits: [
-					willrock,
-				],
-			},
-			{
-				subpath: '/MP3/12 Final Progression.mp3',
-				name: 'Final Progression',
-				index: 12,
-				credits: [
-					jewbei,
-				],
-			},
-			{
-				subpath: '/MP3/13 A Hog in His Prime.mp3',
-				name: 'A Hog in His Prime',
-				index: 13,
-				credits: [
-					brandonstrader,
-					halc,
-					willrock,
-				],
-			},
-		],
-		art: [
-			cover,
-			{
-				subpath: '/Artwork/Logo [ProtoDome].jpg',
-				width: 2258,
-				height: 962,
-				srcset: [
-				],
-			},
-			{
-				subpath: '/Artwork/Sonic [Denny \'dish\' Iskandar].png',
-				width: 3002,
-				height: 1628,
-				srcset: [
-				],
-			},
-		],
-	},
+				{
+					subpath: '/MP3/01 A, B, C, Start!.mp3',
+					name: 'A, B, C, Start!',
+					index: 1,
+					credits: [
+						halc,
+						oceansandrew,
+					],
+				},
+				{
+					subpath: '/MP3/02 The Sound of Speed.mp3',
+					name: 'The Sound of Speed',
+					index: 2,
+					credits: [
+						oceansandrew,
+						scaredsim,
+					],
+				},
+				{
+					subpath: '/MP3/03 Shifting Islands.mp3',
+					name: 'Shifting Islands',
+					index: 3,
+					credits: [
+						halc,
+						miearth,
+						protodome,
+					],
+				},
+				{
+					subpath: '/MP3/04 Subsonic Sparkle.mp3',
+					name: 'Subsonic Sparkle',
+					index: 4,
+					credits: [
+						gamebox,
+					],
+				},
+				{
+					subpath: '/MP3/05 Spring Junkie.mp3',
+					name: 'Spring Junkie',
+					index: 5,
+					credits: [
+						halc,
+					],
+				},
+				{
+					subpath: '/MP3/06 Bubble Junkie.mp3',
+					name: 'Bubble Junkie',
+					index: 6,
+					credits: [
+						benbriggs,
+					],
+				},
+				{
+					subpath: '/MP3/07 Fifty Rings to Ride.mp3',
+					name: 'Fifty Rings to Ride',
+					index: 7,
+					credits: [
+						joshuamorse,
+					],
+				},
+				{
+					subpath: '/MP3/08 Under Construction.mp3',
+					name: 'Under Construction',
+					index: 8,
+					credits: [
+						drumultima,
+						harmony,
+					],
+				},
+				{
+					subpath: '/MP3/09 Hogtied.mp3',
+					name: 'Hogtied',
+					index: 9,
+					credits: [
+						brandonstrader,
+						rexy,
+					],
+				},
+				{
+					subpath: '/MP3/10 Caos.mp3',
+					name: 'Caos',
+					index: 10,
+					credits: [
+						josethebronxrican,
+					],
+				},
+				{
+					subpath: '/MP3/11 Clockwork Criminal.mp3',
+					name: 'Clockwork Criminal',
+					index: 11,
+					credits: [
+						willrock,
+					],
+				},
+				{
+					subpath: '/MP3/12 Final Progression.mp3',
+					name: 'Final Progression',
+					index: 12,
+					credits: [
+						jewbei,
+					],
+				},
+				{
+					subpath: '/MP3/13 A Hog in His Prime.mp3',
+					name: 'A Hog in His Prime',
+					index: 13,
+					credits: [
+						brandonstrader,
+						halc,
+						willrock,
+					],
+				},
+			],
+			art: [
+				cover,
+				{
+					subpath: '/Artwork/Logo [ProtoDome].jpg',
+					width: 2258,
+					height: 962,
+					srcset: [
+					],
+				},
+				{
+					subpath: '/Artwork/Sonic [Denny \'dish\' Iskandar].png',
+					width: 3002,
+					height: 1628,
+					srcset: [
+					],
+				},
+			],
+		},
 	],
 	credits: {
 		directors: [
