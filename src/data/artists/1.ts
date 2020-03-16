@@ -1,9 +1,9 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: {
 		en: 'Yuzo Koshiro',
 		ja: '古代 祐三',
 	},
-	url: 'https://ocremix.org/artist/1/yuzo-koshiro',
-} as Credit;
+	id: 1,
+} as CreditWithId;

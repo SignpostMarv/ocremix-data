@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Joshua Morse',
-	url: 'https://ocremix.org/artist/4553/joshua-morse',
-} as Credit;
+	id: 4553,
+} as CreditWithId;

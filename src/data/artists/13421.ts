@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Mark Crew',
-	url: 'https://ocremix.org/artist/13421/mark-crew',
-} as Credit;
+	id: 13421,
+} as CreditWithId;

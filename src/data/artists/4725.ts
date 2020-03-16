@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'PLBenjaminZ',
-	url: 'https://ocremix.org/artist/4659/jillian-aversa',
-} as Credit;
+	id: 4659,
+} as CreditWithId;

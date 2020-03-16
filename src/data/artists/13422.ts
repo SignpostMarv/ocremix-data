@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Armando Peraza',
-	url: 'https://ocremix.org/artist/13422/armando-peraza',
-} as Credit;
+	id: 13422,
+} as CreditWithId;

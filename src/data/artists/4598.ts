@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'José the Bronx Rican',
-	url: 'https://ocremix.org/artist/4598/jose-the-bronx-rican',
-} as Credit;
+	id: 4598,
+} as CreditWithId;

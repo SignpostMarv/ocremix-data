@@ -1,9 +1,9 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: {
 		en: 'Shiho Fujii',
 		ja: '藤井志帆',
 	},
-	url: 'https://ocremix.org/artist/5635/shiho-fujii',
-} as Credit;
+	id: 5635,
+} as CreditWithId;

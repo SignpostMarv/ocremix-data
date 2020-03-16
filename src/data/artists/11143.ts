@@ -1,11 +1,11 @@
-import { GroupCredit } from '../../module';
+import { GroupCreditWithId } from '../../module';
 
 export const artist = {
 	name: 'HyperDuck SoundWorks',
-	url: '11143',
+	id: 11143,
 	members: [
 		'Chris Geehan',
 		'Dan Byrne-McCullough',
 		'Kevin Carville',
 	],
-} as GroupCredit;
+} as GroupCreditWithId;

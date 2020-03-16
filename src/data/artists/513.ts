@@ -1,9 +1,9 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: {
 		en: 'Sachio Ogawa',
 		ja: '小河幸男',
 	},
-	url: 'https://ocremix.org/artist/513/sachio-ogawa',
-} as Credit;
+	id: 513,
+} as CreditWithId;

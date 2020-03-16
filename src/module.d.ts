@@ -21,10 +21,10 @@ export interface Album {
 	name: string;
 	discs: Array<Disc>;
 	credits: {
-		directors: Array<Credit>;
-		arrangers: Array<Credit>;
-		composers: Array<Credit>;
-		artwork: Array<Credit>;
+		directors: Credit[];
+		arrangers: Credit[];
+		composers: Credit[];
+		artwork: Credit[];
 	};
 }
 
@@ -39,18 +39,29 @@ export interface Track {
 	name: string;
 	subpath: string;
 	index: number;
-	credits: Array<Credit|string>;
+	credits: Credit[];
 }
 
 export interface BrokenTrack extends Track {
 	fixAvailable: boolean;
 }
 
-export interface Credit {
+export type Credit = NamedCredit|CreditWithUrl|CreditWithId|GroupCredit|string;
+
+export interface NamedCredit {
 	name: string | {[locale: string]: string};
-	url: string|undefined;
 }
 
-export interface GroupCredit extends Credit {
-	members: Array<Credit|string>;
+export interface CreditWithUrl extends NamedCredit {
+	url: string;
 }
+
+export interface CreditWithId extends NamedCredit {
+	id: number;
+}
+
+export interface GroupCredit extends NamedCredit {
+	members: Credit[];
+}
+
+export interface GroupCreditWithId extends GroupCredit, CreditWithId {}

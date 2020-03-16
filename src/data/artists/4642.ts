@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Blake Perdue',
-	url: 'https://ocremix.org/artist/4642/blake-perdue',
-} as Credit;
+	id: 4642,
+} as CreditWithId;

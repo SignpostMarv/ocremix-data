@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Lisa Coffman',
-	url: 'https://ocremix.org/artist/15574/lisa-coffman',
-} as Credit;
+	id: 15574,
+} as CreditWithId;

@@ -1,5 +1,5 @@
 import {
-	GroupCredit,
+	GroupCreditWithId,
 } from '../../module';
 
 import { artist as kyopi } from './9272.js';
@@ -11,10 +11,10 @@ export const artist = {
 		en: 'PURE SOUND Inc.',
 		ja: '株式会社ピュアサウンド',
 	},
-	url: 'https://ocremix.org/artist/435/pure-sound-inc',
+	id: 435,
 	members: [
 		kyopi,
 		masafumiogata,
 		minakoadachi,
 	],
-} as GroupCredit;
+} as GroupCreditWithId;

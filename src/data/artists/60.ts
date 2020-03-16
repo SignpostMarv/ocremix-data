@@ -1,9 +1,9 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: {
 		en: 'Kenta Nagata',
 		ja: '永田権太',
 	},
-	url: 'https://ocremix.org/artist/60/kenta-nagata',
-} as Credit;
+	id: 60,
+} as CreditWithId;

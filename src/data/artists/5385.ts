@@ -1,9 +1,9 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: {
 		en: 'Michael Jackson',
 		ja: 'マイケル・ジャクソン',
 	},
-	url: 'https://ocremix.org/artist/5385/michael-jackson',
-} as Credit;
+	id: 5385,
+} as CreditWithId;

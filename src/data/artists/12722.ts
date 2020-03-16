@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'KungFuChicken!',
-	url: 'https://ocremix.org/artist/12722/kungfuchicken',
-} as Credit;
+	id: 12722,
+} as CreditWithId;

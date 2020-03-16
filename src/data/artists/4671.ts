@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'housethegrate',
-	url: 'https://ocremix.org/artist/4671/housethegrate',
-} as Credit;
+	id: 4671,
+} as CreditWithId;

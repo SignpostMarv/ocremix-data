@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Claado Shou',
-	url: 'https://ocremix.org/artist/6015/claado-shou',
-} as Credit;
+	id: 6015,
+} as CreditWithId;

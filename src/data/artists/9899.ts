@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Magnus Pålsson',
-	url: 'https://ocremix.org/artist/9899/magnus-palsson',
-} as Credit;
+	id: 9899,
+} as CreditWithId;

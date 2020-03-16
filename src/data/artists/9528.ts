@@ -1,6 +1,6 @@
-import { Credit } from '../../module';
+import { CreditWithId } from '../../module';
 
 export const artist = {
 	name: 'Laura Shigihara',
-	url: 'https://ocremix.org/artist/9528/laura-shigihara',
-} as Credit;
+	id: 9528,
+} as CreditWithId;
