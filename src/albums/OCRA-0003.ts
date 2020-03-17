@@ -31,7 +31,8 @@ export const OCRA0003: Album = {
 					name: 'Emerald Nights',
 					index: 1,
 					credits: [
-
+						'nesper',
+						skulkrusha,
 					],
 				},
 				{
@@ -39,7 +40,7 @@ export const OCRA0003: Album = {
 					name: 'Chemical Reaction',
 					index: 2,
 					credits: [
-
+						'Snyderman',
 					],
 				},
 				{
@@ -47,7 +48,7 @@ export const OCRA0003: Album = {
 					name: 'Project Aquatic',
 					index: 3,
 					credits: [
-
+						sadorf,
 					],
 				},
 				{
@@ -55,7 +56,7 @@ export const OCRA0003: Album = {
 					name: 'House of Cards',
 					index: 4,
 					credits: [
-
+						davidlpuga,
 					],
 				},
 				{
@@ -63,7 +64,7 @@ export const OCRA0003: Album = {
 					name: 'Hill Top Heaven',
 					index: 5,
 					credits: [
-
+						jaysonlitrio,
 					],
 				},
 				{
@@ -71,7 +72,7 @@ export const OCRA0003: Album = {
 					name: 'Cavern Escape',
 					index: 6,
 					credits: [
-
+						'Icy Guy',
 					],
 				},
 				{
@@ -79,7 +80,7 @@ export const OCRA0003: Album = {
 					name: 'Oil Spill',
 					index: 7,
 					credits: [
-
+						analoq,
 					],
 				},
 				{
@@ -87,7 +88,7 @@ export const OCRA0003: Album = {
 					name: 'Next My Generation',
 					index: 8,
 					credits: [
-
+						analoq,
 					],
 				},
 				{
@@ -95,7 +96,7 @@ export const OCRA0003: Album = {
 					name: 'High Above the Sky',
 					index: 9,
 					credits: [
-
+						sirnuts,
 					],
 				},
 				{
@@ -103,7 +104,7 @@ export const OCRA0003: Album = {
 					name: 'Fortress of Glory',
 					index: 10,
 					credits: [
-
+						'Psawnik',
 					],
 				},
 				{
@@ -111,7 +112,7 @@ export const OCRA0003: Album = {
 					name: 'Apocalyptic Orbital Ovum',
 					index: 11,
 					credits: [
-
+						'Aeolius',
 					],
 				},
 				{
@@ -119,7 +120,7 @@ export const OCRA0003: Album = {
 					name: 'Hidden Palace Future',
 					index: 12,
 					credits: [
-
+						ffmusicdj,
 					],
 				},
 				{
@@ -127,7 +128,7 @@ export const OCRA0003: Album = {
 					name: 'Robeatnik\'s Theme',
 					index: 13,
 					credits: [
-
+						richter,
 					],
 				},
 				{
@@ -135,7 +136,7 @@ export const OCRA0003: Album = {
 					name: 'Travelling Through a Dream',
 					index: 14,
 					credits: [
-
+						'Hadyn',
 					],
 				},
 				{
@@ -143,7 +144,7 @@ export const OCRA0003: Album = {
 					name: 'Sonikku Ganbattle',
 					index: 15,
 					credits: [
-
+						'afish',
 					],
 				},
 				{
@@ -151,7 +152,7 @@ export const OCRA0003: Album = {
 					name: 'Super Sonic Ska',
 					index: 16,
 					credits: [
-
+						blakomen,
 					],
 				},
 				{
@@ -159,7 +160,7 @@ export const OCRA0003: Album = {
 					name: 'Casino Night Club',
 					index: 17,
 					credits: [
-
+						'Jonathon Striker',
 					],
 				},
 				{
@@ -167,7 +168,7 @@ export const OCRA0003: Album = {
 					name: 'Party in the Emerald Hills',
 					index: 18,
 					credits: [
-
+						'Hadyn',
 					],
 				},
 				{
@@ -175,7 +176,7 @@ export const OCRA0003: Album = {
 					name: 'Sonik Caves',
 					index: 19,
 					credits: [
-
+						analoq,
 					],
 				},
 				{
@@ -183,7 +184,7 @@ export const OCRA0003: Album = {
 					name: 'Radio Results',
 					index: 20,
 					credits: [
-
+						richter,
 					],
 				},
 				{
@@ -191,7 +192,7 @@ export const OCRA0003: Album = {
 					name: 'Bring in the Machine',
 					index: 21,
 					credits: [
-
+						richter,
 					],
 				},
 				{
@@ -199,7 +200,7 @@ export const OCRA0003: Album = {
 					name: 'Is This the End?',
 					index: 22,
 					credits: [
-
+						dct,
 					],
 				},
 			],
