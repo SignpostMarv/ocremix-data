@@ -13,6 +13,7 @@ export interface Disc {
 	index: number;
 	tracks: Array<Track>;
 	art: Array<ImageSource>;
+	background?: ImageSource;
 }
 
 export interface Album {

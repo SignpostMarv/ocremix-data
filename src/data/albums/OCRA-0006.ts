@@ -35,6 +35,18 @@ const CD2Label = {
 	height: 1417,
 	srcset: []
 };
+const background1 = {
+	subpath: '/Artwork/Wallpaper 01 (1024x768).jpg',
+	width: 1024,
+	height: 768,
+	srcset: [],
+};
+const background2 = {
+	subpath: '/Artwork/Wallpaper 02 (1024x768).jpg',
+	width: 1024,
+	height: 768,
+	srcset: [],
+};
 
 export const OCRA0006: AlbumWithArt = {
 	id: 'OCRA0006',
@@ -179,13 +191,9 @@ export const OCRA0006: AlbumWithArt = {
 			],
 			art: [
 				CD1Label,
-				{
-					subpath: '/Artwork/Wallpaper 01 (1024x768).jpg',
-					width: 1024,
-					height: 768,
-					srcset: [],
-				},
+				background1,
 			],
+			background: background1,
 		},
 		{
 			name: 'Shadow / Ice',
@@ -286,13 +294,9 @@ export const OCRA0006: AlbumWithArt = {
 			],
 			art: [
 				CD2Label,
-				{
-					subpath: '/Artwork/Wallpaper 02 (1024x768).jpg',
-					width: 1024,
-					height: 768,
-					srcset: [],
-				},
+				background2,
 			],
+			background: background2,
 		},
 	],
 	credits: {
