@@ -56,7 +56,7 @@ const background: ImageSource = {
 
 const trackBackgrounds: {[key: string]: ImageSource} = {
 	track1: {
-		subpath: '/Artwork/65,000,000 B.C. [Max Nolan].png',
+		subpath: '/Artwork/65,000,000 B.C. [Max Nolan].jpg',
 		width: 4800,
 		height: 2700,
 		srcset: [
@@ -77,7 +77,7 @@ const trackBackgrounds: {[key: string]: ImageSource} = {
 		],
 	},
 	track5: {
-		subpath: '/Artwork/1000 A.D. [Glauber Lopes].png',
+		subpath: '/Artwork/1000 A.D. [Glauber Lopes].jpg',
 		width: 3920,
 		height: 2203,
 		srcset: [
@@ -91,7 +91,7 @@ const trackBackgrounds: {[key: string]: ImageSource} = {
 		],
 	},
 	track7: {
-		subpath: '/Artwork/2300 A.D. [Glauber Lopes].png',
+		subpath: '/Artwork/2300 A.D. [Glauber Lopes].jpg',
 		width: 6920,
 		height: 3889,
 		srcset: [
