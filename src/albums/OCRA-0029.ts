@@ -288,6 +288,7 @@ export const OCRA0029: AlbumWithArt = {
 			takeshihama,
 			toruminegishi,
 		],
+		performers: [],
 		artwork: [
 			lisacoffman,
 			paulveer,

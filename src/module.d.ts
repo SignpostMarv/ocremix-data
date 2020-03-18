@@ -25,6 +25,7 @@ export interface Album {
 		directors: Credit[];
 		arrangers: Credit[];
 		composers: Credit[];
+		performers: Credit[];
 		artwork: Credit[];
 	};
 }

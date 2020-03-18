@@ -226,6 +226,7 @@ export const OCRA0003: Album = {
 		composers: [
 			masatonakamura,
 		],
+		performers: [],
 		artwork: [
 			jmr,
 			kungfuchicken,

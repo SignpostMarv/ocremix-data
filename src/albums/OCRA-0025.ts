@@ -241,6 +241,7 @@ export const OCRA0025: AlbumWithArt = {
 			yukifumimakino,
 			yuzokoshiro,
 		],
+		performers: [],
 		artwork: [
 			dish,
 			protodome,

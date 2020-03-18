@@ -397,6 +397,7 @@ export const OCRA0008: Album = {
 			tomonorisawada,
 			yoshiakikashima,
 		],
+		performers: [],
 		artwork: [],
 	},
 };

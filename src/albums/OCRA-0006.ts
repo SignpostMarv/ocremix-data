@@ -324,6 +324,7 @@ export const OCRA0006: AlbumWithArt = {
 			norikomatsueda,
 			yasunorimitsuda,
 		],
+		performers: [],
 		artwork: [
 			eonblue,
 		],
