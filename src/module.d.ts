@@ -42,6 +42,7 @@ export interface Track {
 	subpath: string;
 	index: number;
 	credits: Credit[];
+	background?: ImageSource;
 }
 
 export interface BrokenTrack extends Track {
