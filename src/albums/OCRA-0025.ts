@@ -244,9 +244,7 @@ export const OCRA0025: AlbumWithArt = {
 		artwork: [
 			dish,
 			protodome,
-			/*
 			oceansandrew, // background image?
-			*/
 		],
 	},
 };
