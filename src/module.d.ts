@@ -17,7 +17,9 @@ export interface Disc {
 }
 
 export interface Album {
-	id: string;
+	id: number;
+	// I would spell this catalogue, but it's catalog on ocremix.org, so 🤷‍♂️
+	catalogNumber: string;
 	path: string;
 	name: string;
 	discs: Array<Disc>;

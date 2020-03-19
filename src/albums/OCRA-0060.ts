@@ -107,7 +107,8 @@ const trackBackgrounds: {[key: string]: ImageSource} = {
 };
 
 export const OCRA0060: AlbumWithArt = {
-	id: 'OCRA0060',
+	id: 76,
+	catalogNumber: 'OCRA-0060',
 	path: '/Albums/Chronology - A Jazz Tribute to Chrono Trigger',
 	name: 'Chronology - A Jazz Tribute to Chrono Trigger',
 	art: {

@@ -50,7 +50,8 @@ const cover = {
 };
 
 export const OCRA0025: AlbumWithArt = {
-	id: 'OCRA0025',
+	id: 29,
+	catalogNumber: 'OCRA-0025',
 	path: '/Albums/Sonic the Hedgehog - The Sound of Speed',
 	name: 'Sonic the Hedgehog - The Sound of Speed',
 	art: {

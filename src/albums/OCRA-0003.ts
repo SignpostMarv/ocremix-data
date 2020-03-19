@@ -18,7 +18,8 @@ import { artist as jmr} from '../artists/5386.js';
 import { artist as kungfuchicken} from '../artists/12722.js';
 
 export const OCRA0003: Album = {
-	id: 'OCRA0003',
+	id: 5,
+	catalogNumber: 'OCRA-0003',
 	path: '/Albums/Sonic the Hedgehog 2 - Hedgehog Heaven',
 	name: 'Hedgehog Heaven',
 	discs: [

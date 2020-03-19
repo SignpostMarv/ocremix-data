@@ -66,7 +66,8 @@ const background = {
 };
 
 export const OCRA0029: AlbumWithArt = {
-	id: 'OCRA0029',
+	id: 33,
+	catalogNumber: 'OCRA-0029',
 	path: '/Albums/25YEARLEGEND - A Legend of Zelda Indie Game Composer Tribute',
 	name: '25YEARLEGEND - A Legend of Zelda Indie Game Composer Tribute',
 	art: {

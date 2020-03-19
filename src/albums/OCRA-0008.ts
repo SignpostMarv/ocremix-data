@@ -40,7 +40,8 @@ import {artist as tomonorisawada} from '../artists/910.js';
 import {artist as yoshiakikashima} from '../artists/10276.js';
 
 export const OCRA0008: Album = {
-	id: 'OCRA0008',
+	id: 9,
+	catalogNumber: 'OCRA-0008',
 	path: '/Albums/Sonic 3 and Knuckles - Project Chaos',
 	name: 'Sonic 3 and Knuckles - Project Chaos',
 	discs: [

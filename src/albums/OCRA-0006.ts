@@ -49,7 +49,8 @@ const background2 = {
 };
 
 export const OCRA0006: AlbumWithArt = {
-	id: 'OCRA0006',
+	id: 7,
+	catalogNumber: 'OCRA-0006',
 	path: '/Albums/Chrono Symphonic',
 	name: 'Chrono Symphonic',
 	art: {
