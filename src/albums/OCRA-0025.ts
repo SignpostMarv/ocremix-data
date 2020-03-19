@@ -1,40 +1,40 @@
 import { AlbumWithArt } from '../module';
 
-import { artist as halc } from '../artists/4793.js';
+import { artist as halc } from '../artists/4793';
 
-import { artist as benbriggs } from '../artists/4651.js';
-import { artist as brandonstrader } from '../artists/5409.js';
-import { artist as drumultima } from '../artists/4724.js';
-import { artist as gamebox } from '../artists/4687.js';
+import { artist as benbriggs } from '../artists/4651';
+import { artist as brandonstrader } from '../artists/5409';
+import { artist as drumultima } from '../artists/4724';
+import { artist as gamebox } from '../artists/4687';
 /* already imported
-import { artist as halc } from '../artists/4793.js';
+import { artist as halc } from '../artists/4793';
 */
-import { artist as harmony } from '../artists/4661.js';
-import { artist as jewbei } from '../artists/4798.js';
-import { artist as josethebronxrican } from '../artists/4598.js';
-import { artist as joshuamorse } from '../artists/4553.js';
-import { artist as miearth } from '../artists/9962.js';
-import { artist as oceansandrew } from '../artists/4729.js';
-import { artist as protodome } from '../artists/5178.js';
-import { artist as rexy } from '../artists/4655.js';
-import { artist as scaredsim } from '../artists/4765.js';
-import { artist as willrock } from '../artists/5043.js';
+import { artist as harmony } from '../artists/4661';
+import { artist as jewbei } from '../artists/4798';
+import { artist as josethebronxrican } from '../artists/4598';
+import { artist as joshuamorse } from '../artists/4553';
+import { artist as miearth } from '../artists/9962';
+import { artist as oceansandrew } from '../artists/4729';
+import { artist as protodome } from '../artists/5178';
+import { artist as rexy } from '../artists/4655';
+import { artist as scaredsim } from '../artists/4765';
+import { artist as willrock } from '../artists/5043';
 
-import { artist as armandoperaza } from '../artists/13422.js';
-import { artist as bobbyvega } from '../artists/13423.js';
-import { artist as davidyoung } from '../artists/3638.js';
-import { artist as markcrew } from '../artists/13421.js';
-import { artist as masafumiogata } from '../artists/300.js';
-import { artist as masatonakamura } from '../artists/26.js';
-import { artist as naofumihataya } from '../artists/161.js';
-import { artist as pastiche } from '../artists/301.js';
-import { artist as spencernnilsen } from '../artists/170.js';
-import { artist as yukifumimakino } from '../artists/1177.js';
-import { artist as yuzokoshiro } from '../artists/1.js';
+import { artist as armandoperaza } from '../artists/13422';
+import { artist as bobbyvega } from '../artists/13423';
+import { artist as davidyoung } from '../artists/3638';
+import { artist as markcrew } from '../artists/13421';
+import { artist as masafumiogata } from '../artists/300';
+import { artist as masatonakamura } from '../artists/26';
+import { artist as naofumihataya } from '../artists/161';
+import { artist as pastiche } from '../artists/301';
+import { artist as spencernnilsen } from '../artists/170';
+import { artist as yukifumimakino } from '../artists/1177';
+import { artist as yuzokoshiro } from '../artists/1';
 
-import { artist as dish } from '../artists/15577.js';
+import { artist as dish } from '../artists/15577';
 /* already imported
-import { artist as protodome } from '../artists/5178.js';
+import { artist as protodome } from '../artists/5178';
 */
 
 const cover = {

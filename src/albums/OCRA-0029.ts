@@ -1,41 +1,41 @@
 import { AlbumWithArt } from '../module';
 
-import { artist as rekcahdam } from '../artists/12719.js';
+import { artist as rekcahdam } from '../artists/12719';
 
-import { artist as biggiantcircles } from '../artists/4635.js';
-import { artist as c418 } from '../artists/10576.js';
-import { artist as disasterpeace } from '../artists/10682.js';
-import { artist as dong } from '../artists/8817.js';
-import { artist as hyperducksoundworks } from '../artists/11143.js';
-import { artist as jeffball } from '../artists/10683.js';
-import { artist as joshwhelchel } from '../artists/5406.js';
-import { artist as joshuamorse } from '../artists/4553.js';
-import { artist as laurashigihara } from '../artists/9528.js';
-import { artist as magnuspalsson } from '../artists/9899.js';
-import { artist as matheusmanente } from '../artists/16533.js';
-import { artist as mattiashaggstromgerdt } from '../artists/4751.js';
+import { artist as biggiantcircles } from '../artists/4635';
+import { artist as c418 } from '../artists/10576';
+import { artist as disasterpeace } from '../artists/10682';
+import { artist as dong } from '../artists/8817';
+import { artist as hyperducksoundworks } from '../artists/11143';
+import { artist as jeffball } from '../artists/10683';
+import { artist as joshwhelchel } from '../artists/5406';
+import { artist as joshuamorse } from '../artists/4553';
+import { artist as laurashigihara } from '../artists/9528';
+import { artist as magnuspalsson } from '../artists/9899';
+import { artist as matheusmanente } from '../artists/16533';
+import { artist as mattiashaggstromgerdt } from '../artists/4751';
 /* already imported
-import { artist as rekcahdam } from '../artists/12719.js';
+import { artist as rekcahdam } from '../artists/12719';
 */
 
-import { artist as akitonakatsuka } from '../artists/219.js';
-import { artist as asukahayazaki } from '../artists/509.js';
-import { artist as hajimewakai } from '../artists/493.js';
-import { artist as kazumitotaka } from '../artists/110.js';
-import { artist as kentanagata } from '../artists/60.js';
-import { artist as kojikondo } from '../artists/2.js';
-import { artist as kozueishikawa } from '../artists/408.js';
-import { artist as kyopi } from '../artists/9272.js';
-import { artist as mahitoyokota } from '../artists/1311.js';
-import { artist as minakoadachi } from '../artists/594.js';
-import { artist as minakohamano } from '../artists/83.js';
-import { artist as puresoundinc } from '../artists/435.js';
-import { artist as shihofujii } from '../artists/5635.js';
-import { artist as takeshihama } from '../artists/5233.js';
-import { artist as toruminegishi } from '../artists/542.js';
+import { artist as akitonakatsuka } from '../artists/219';
+import { artist as asukahayazaki } from '../artists/509';
+import { artist as hajimewakai } from '../artists/493';
+import { artist as kazumitotaka } from '../artists/110';
+import { artist as kentanagata } from '../artists/60';
+import { artist as kojikondo } from '../artists/2';
+import { artist as kozueishikawa } from '../artists/408';
+import { artist as kyopi } from '../artists/9272';
+import { artist as mahitoyokota } from '../artists/1311';
+import { artist as minakoadachi } from '../artists/594';
+import { artist as minakohamano } from '../artists/83';
+import { artist as puresoundinc } from '../artists/435';
+import { artist as shihofujii } from '../artists/5635';
+import { artist as takeshihama } from '../artists/5233';
+import { artist as toruminegishi } from '../artists/542';
 
-import { artist as lisacoffman } from '../artists/15574.js';
-import { artist as paulveer } from '../artists/15573.js';
+import { artist as lisacoffman } from '../artists/15574';
+import { artist as paulveer } from '../artists/15573';
 
 const cover1 = {
 	subpath: '/Artwork/Front (Legend) [Lisa Coffman].png',

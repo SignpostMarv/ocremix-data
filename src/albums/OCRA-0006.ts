@@ -1,27 +1,27 @@
 import { AlbumWithArt } from '../module';
 
-import { artist as claadoshou } from '../artists/6015.js';
+import { artist as claadoshou } from '../artists/6015';
 
-import { artist as blakeperdue } from '../artists/4642.js';
-import { artist as darkesword } from '../artists/4482.js';
-import { artist as ellywu2 } from '../artists/4776.js';
-import { artist as jillianaversa } from '../artists/4659.js';
-import { artist as mv } from '../artists/4547.js';
-import { artist as plbenjaminz } from '../artists/4725.js';
-import { artist as rellik } from '../artists/4618.js';
-import { artist as reubenkee } from '../artists/4608.js';
-import { artist as roetaka } from '../artists/4703.js';
-import { artist as russellcox } from '../artists/4443.js';
-import { artist as sephfire } from '../artists/4587.js';
-import { artist as sleepyemp } from '../artists/4604.js';
-import { artist as tylerheath } from '../artists/4484.js';
-import { artist as zas } from '../artists/4696.js';
+import { artist as blakeperdue } from '../artists/4642';
+import { artist as darkesword } from '../artists/4482';
+import { artist as ellywu2 } from '../artists/4776';
+import { artist as jillianaversa } from '../artists/4659';
+import { artist as mv } from '../artists/4547';
+import { artist as plbenjaminz } from '../artists/4725';
+import { artist as rellik } from '../artists/4618';
+import { artist as reubenkee } from '../artists/4608';
+import { artist as roetaka } from '../artists/4703';
+import { artist as russellcox } from '../artists/4443';
+import { artist as sephfire } from '../artists/4587';
+import { artist as sleepyemp } from '../artists/4604';
+import { artist as tylerheath } from '../artists/4484';
+import { artist as zas } from '../artists/4696';
 
-import { artist as nobuouematsu } from '../artists/3.js';
-import { artist as norikomatsueda } from '../artists/135.js';
-import { artist as yasunorimitsuda } from '../artists/4.js';
+import { artist as nobuouematsu } from '../artists/3';
+import { artist as norikomatsueda } from '../artists/135';
+import { artist as yasunorimitsuda } from '../artists/4';
 
-import { artist as eonblue } from '../artists/8363.js';
+import { artist as eonblue } from '../artists/8363';
 
 const CD1Label = {
 	subpath: '/Artwork/CD1 Label.jpg',

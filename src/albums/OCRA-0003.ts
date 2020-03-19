@@ -1,21 +1,21 @@
 import { Album } from '../module';
 
-import { artist as richter} from '../artists/8409.js';
+import { artist as richter} from '../artists/8409';
 
-import { artist as analoq} from '../artists/4518.js';
-import { artist as blakomen} from '../artists/4578.js';
-import { artist as davidlpuga} from '../artists/4732.js';
-import { artist as dct} from '../artists/4668.js';
-import { artist as ffmusicdj} from '../artists/4324.js';
-import { artist as jaysonlitrio} from '../artists/4409.js';
-import { artist as sadorf} from '../artists/4560.js';
-import { artist as sirnuts} from '../artists/4543.js';
-import { artist as skulkrusha} from '../artists/12714.js';
+import { artist as analoq} from '../artists/4518';
+import { artist as blakomen} from '../artists/4578';
+import { artist as davidlpuga} from '../artists/4732';
+import { artist as dct} from '../artists/4668';
+import { artist as ffmusicdj} from '../artists/4324';
+import { artist as jaysonlitrio} from '../artists/4409';
+import { artist as sadorf} from '../artists/4560';
+import { artist as sirnuts} from '../artists/4543';
+import { artist as skulkrusha} from '../artists/12714';
 
-import { artist as masatonakamura} from '../artists/26.js';
+import { artist as masatonakamura} from '../artists/26';
 
-import { artist as jmr} from '../artists/5386.js';
-import { artist as kungfuchicken} from '../artists/12722.js';
+import { artist as jmr} from '../artists/5386';
+import { artist as kungfuchicken} from '../artists/12722';
 
 export const OCRA0003: Album = {
 	id: 5,

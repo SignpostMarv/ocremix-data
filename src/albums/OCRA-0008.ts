@@ -2,42 +2,42 @@ import {
 	Album,
 	BrokenTrack
 } from '../module';
-import { artist as kungfuchicken } from '../artists/12722.js';
-import { artist as snappleman } from '../artists/4625.js';
+import { artist as kungfuchicken } from '../artists/12722';
+import { artist as snappleman } from '../artists/4625';
 
-import { artist as ashane } from '../artists/4667.js';
-import { artist as benbriggs } from '../artists/4651.js';
-import { artist as braincells } from '../artists/4647.js';
-import { artist as dannybaranowsky } from '../artists/4501.js';
-import { artist as davidlpuga } from '../artists/4732.js';
-import { artist as gamebox } from '../artists/4687.js';
-import { artist as housethegrate } from '../artists/4671.js';
+import { artist as ashane } from '../artists/4667';
+import { artist as benbriggs } from '../artists/4651';
+import { artist as braincells } from '../artists/4647';
+import { artist as dannybaranowsky } from '../artists/4501';
+import { artist as davidlpuga } from '../artists/4732';
+import { artist as gamebox } from '../artists/4687';
+import { artist as housethegrate } from '../artists/4671';
 /* already imported
-import { artist as kungfuchicken } from '../artists/12722.js';
+import { artist as kungfuchicken } from '../artists/12722';
 */
-import { artist as lazygecko } from '../artists/4391.js';
-import { artist as norg } from '../artists/4753.js';
-import { artist as rexy } from '../artists/4655.js';
+import { artist as lazygecko } from '../artists/4391';
+import { artist as norg } from '../artists/4753';
+import { artist as rexy } from '../artists/4655';
 /* already imported
-import { artist as snappleman } from '../artists/4625.js';
+import { artist as snappleman } from '../artists/4625';
 */
 
-import {artist as bobbybrooks} from '../artists/355.js';
-import {artist as bradbuxer} from '../artists/354.js';
-import {artist as cciroccojones} from '../artists/359.js';
-import {artist as darrylross} from '../artists/356.js';
-import {artist as douggrigsbyiii} from '../artists/358.js';
-import {artist as geoffgrace} from '../artists/357.js';
-import {artist as howarddrossin} from '../artists/233.js';
-import {artist as junsenoue} from '../artists/41.js';
-import {artist as masarusetsumaru} from '../artists/964.js';
-import {artist as masayukinagao} from '../artists/420.js';
-import {artist as michaeljackson} from '../artists/5385.js';
-import {artist as sachioogawa} from '../artists/513.js';
-import {artist as tatsuyukimaeda} from '../artists/1174.js';
-import {artist as tokuhikouwabo} from '../artists/52.js';
-import {artist as tomonorisawada} from '../artists/910.js';
-import {artist as yoshiakikashima} from '../artists/10276.js';
+import {artist as bobbybrooks} from '../artists/355';
+import {artist as bradbuxer} from '../artists/354';
+import {artist as cciroccojones} from '../artists/359';
+import {artist as darrylross} from '../artists/356';
+import {artist as douggrigsbyiii} from '../artists/358';
+import {artist as geoffgrace} from '../artists/357';
+import {artist as howarddrossin} from '../artists/233';
+import {artist as junsenoue} from '../artists/41';
+import {artist as masarusetsumaru} from '../artists/964';
+import {artist as masayukinagao} from '../artists/420';
+import {artist as michaeljackson} from '../artists/5385';
+import {artist as sachioogawa} from '../artists/513';
+import {artist as tatsuyukimaeda} from '../artists/1174';
+import {artist as tokuhikouwabo} from '../artists/52';
+import {artist as tomonorisawada} from '../artists/910';
+import {artist as yoshiakikashima} from '../artists/10276';
 
 export const OCRA0008: Album = {
 	id: 9,

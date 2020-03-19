@@ -2,9 +2,9 @@ import {
 	GroupCreditWithId,
 } from '../module';
 
-import { artist as kyopi } from './9272.js';
-import { artist as masafumiogata } from './300.js';
-import { artist as minakoadachi } from './594.js';
+import { artist as kyopi } from './9272';
+import { artist as masafumiogata } from './300';
+import { artist as minakoadachi } from './594';
 
 export const artist = {
 	name: {

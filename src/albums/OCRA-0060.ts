@@ -1,30 +1,30 @@
 import { AlbumWithArt, ImageSource } from '../module';
 
-import { artist as wiesty } from '../artists/8640.js';
+import { artist as wiesty } from '../artists/8640';
 
-import { artist as drumultima } from '../artists/4724.js';
-import { artist as fratto } from '../artists/14336.js';
-import { artist as jonnyallen } from '../artists/15296.js';
-import { artist as nostalvania } from '../artists/13849.js';
-import { artist as samsuggs } from '../artists/15295.js';
-import { artist as triplepointtrio } from '../artists/15233.js';
+import { artist as drumultima } from '../artists/4724';
+import { artist as fratto } from '../artists/14336';
+import { artist as jonnyallen } from '../artists/15296';
+import { artist as nostalvania } from '../artists/13849';
+import { artist as samsuggs } from '../artists/15295';
+import { artist as triplepointtrio } from '../artists/15233';
 /* already imported
-import { artist as wiesty } from '../artists/8640.js';
+import { artist as wiesty } from '../artists/8640';
 */
 
-import { artist as nobuouematsu } from '../artists/3.js';
-import { artist as norikomatsueda } from '../artists/135.js';
-import { artist as yasunorimitsuda } from '../artists/4.js';
+import { artist as nobuouematsu } from '../artists/3';
+import { artist as norikomatsueda } from '../artists/135';
+import { artist as yasunorimitsuda } from '../artists/4';
 
-import { artist as andyp } from '../artists/14466.js';
-import { artist as anthonylofton } from '../artists/4769.js';
-import { artist as audiofidelity } from '../artists/5198.js';
-import { artist as bowlerhat } from '../artists/15234.js';
-import { artist as theocjazzcollective } from '../artists/14337.js';
-import { artist as uvsirj } from '../artists/10893.js';
-import { artist as xprtnovice } from '../artists/12064.js';
+import { artist as andyp } from '../artists/14466';
+import { artist as anthonylofton } from '../artists/4769';
+import { artist as audiofidelity } from '../artists/5198';
+import { artist as bowlerhat } from '../artists/15234';
+import { artist as theocjazzcollective } from '../artists/14337';
+import { artist as uvsirj } from '../artists/10893';
+import { artist as xprtnovice } from '../artists/12064';
 
-import { artist as oceansandrew } from '../artists/4729.js';
+import { artist as oceansandrew } from '../artists/4729';
 
 const front: ImageSource = {
 	subpath: '/Artwork/Front [OA].png',
