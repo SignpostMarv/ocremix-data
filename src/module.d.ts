@@ -30,6 +30,7 @@ export interface Album {
 		performers: Credit[];
 		artwork: Credit[];
 	};
+	games: Game[];
 }
 
 export interface AlbumWithArt extends Album {
@@ -45,6 +46,7 @@ export interface Track {
 	index: number;
 	credits: Credit[];
 	background?: ImageSource;
+	games?: Game[];
 }
 
 export interface BrokenTrack extends Track {
@@ -53,8 +55,10 @@ export interface BrokenTrack extends Track {
 
 export type Credit = NamedCredit|CreditWithUrl|CreditWithId|GroupCredit|string;
 
+export type Localable = string | string | {[locale: string]: string};
+
 export interface NamedCredit {
-	name: string | {[locale: string]: string};
+	name: Localable;
 }
 
 export interface CreditWithUrl extends NamedCredit {
@@ -70,3 +74,23 @@ export interface GroupCredit extends NamedCredit {
 }
 
 export interface GroupCreditWithId extends GroupCredit, CreditWithId {}
+
+// this would be spelled organisation, but it's organization on ocremix.org
+export interface Organization {
+	name: Localable;
+	id: number;
+}
+
+export interface System {
+	name: Localable;
+	id: string;
+	manufacturer: Organization;
+}
+
+export interface Game {
+	name: Localable;
+	id: number;
+	publisher: Organization;
+	developer: Organization;
+	systems: System[];
+}

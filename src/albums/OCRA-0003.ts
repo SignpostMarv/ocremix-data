@@ -17,11 +17,14 @@ import { artist as masatonakamura} from '../artists/26';
 import { artist as jmr} from '../artists/5386';
 import { artist as kungfuchicken} from '../artists/12722';
 
+import { game as sonic2 } from '../games/23';
+
 export const OCRA0003: Album = {
 	id: 5,
 	catalogNumber: 'OCRA-0003',
 	path: '/Albums/Sonic the Hedgehog 2 - Hedgehog Heaven',
 	name: 'Hedgehog Heaven',
+	games: [ sonic2 ],
 	discs: [
 		{
 			name: '',

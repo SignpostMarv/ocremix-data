@@ -37,6 +37,17 @@ import { artist as toruminegishi } from '../artists/542';
 import { artist as lisacoffman } from '../artists/15574';
 import { artist as paulveer } from '../artists/15573';
 
+import { game as alinktothepast } from '../games/66';
+import { game as linksawakening } from '../games/68';
+import { game as windwaker } from '../games/377';
+import { game as ocarinaoftime } from '../games/67';
+import { game as oracleofseasons } from '../games/726';
+import { game as skywardsword } from '../games/725';
+import { game as thelegendofzelda } from '../games/64';
+import { game as majora } from '../games/490';
+import { game as twilightprincess } from '../games/505';
+import { game as adventureoflink } from '../games/65';
+
 const cover1 = {
 	subpath: '/Artwork/Front (Legend) [Lisa Coffman].png',
 	width: 700,
@@ -77,6 +88,18 @@ export const OCRA0029: AlbumWithArt = {
 		],
 		background,
 	},
+	games: [
+		alinktothepast,
+		linksawakening,
+		windwaker,
+		ocarinaoftime,
+		oracleofseasons,
+		skywardsword,
+		thelegendofzelda,
+		majora,
+		twilightprincess,
+		adventureoflink,
+	],
 	discs: [
 		{
 			name: '',
@@ -89,6 +112,9 @@ export const OCRA0029: AlbumWithArt = {
 					credits: [
 						disasterpeace,
 					],
+					games: [
+						alinktothepast,
+					],
 				},
 				{
 					subpath: '/MP3/02 Rekcahdam - Gimme My Sword! [Link\'s Awakening - A Link to the Past].mp3',
@@ -96,6 +122,10 @@ export const OCRA0029: AlbumWithArt = {
 					index: 2,
 					credits: [
 						rekcahdam,
+					],
+					games: [
+						linksawakening,
+						alinktothepast,
 					],
 				},
 				{
@@ -105,6 +135,9 @@ export const OCRA0029: AlbumWithArt = {
 					credits: [
 						laurashigihara,
 					],
+					games: [
+						alinktothepast,
+					],
 				},
 				{
 					subpath: '/MP3/04 Joshua Morse - Link\'s Epoch [A Link to the Past].mp3',
@@ -112,6 +145,9 @@ export const OCRA0029: AlbumWithArt = {
 					index: 4,
 					credits: [
 						joshuamorse,
+					],
+					games: [
+						alinktothepast,
 					],
 				},
 				{
@@ -121,6 +157,9 @@ export const OCRA0029: AlbumWithArt = {
 					credits: [
 						jeffball,
 					],
+					games: [
+						alinktothepast,
+					],
 				},
 				{
 					subpath: '/MP3/06 HyperDuck SoundWorks - Hoy, Small Fry! [Wind Waker - Ocarina of Time].mp3',
@@ -128,6 +167,10 @@ export const OCRA0029: AlbumWithArt = {
 					index: 6,
 					credits: [
 						hyperducksoundworks,
+					],
+					games: [
+						windwaker,
+						ocarinaoftime,
 					],
 				},
 				{
@@ -140,6 +183,9 @@ export const OCRA0029: AlbumWithArt = {
 							url: 'https://cherof.com/',
 						},
 					],
+					games: [
+						oracleofseasons,
+					],
 				},
 				{
 					subpath: '/MP3/08 C418 - Skyward [Skyward Sword].mp3',
@@ -147,6 +193,9 @@ export const OCRA0029: AlbumWithArt = {
 					index: 8,
 					credits: [
 						c418,
+					],
+					games: [
+						skywardsword,
 					],
 				},
 				{
@@ -157,6 +206,10 @@ export const OCRA0029: AlbumWithArt = {
 						biggiantcircles,
 						jeffball,
 					],
+					games: [
+						ocarinaoftime,
+						thelegendofzelda,
+					],
 				},
 				{
 					subpath: '/MP3/10 Josh Whelchel - Zelda\'s First Trip to the \'Village\' [OOT - LTTP - LOZ].mp3',
@@ -164,6 +217,11 @@ export const OCRA0029: AlbumWithArt = {
 					index: 10,
 					credits: [
 						joshwhelchel,
+					],
+					games: [
+						ocarinaoftime,
+						alinktothepast,
+						thelegendofzelda,
 					],
 				},
 				{
@@ -176,6 +234,9 @@ export const OCRA0029: AlbumWithArt = {
 							url: 'https://soundcloud.com/misfitchris',
 						},
 					],
+					games: [
+						ocarinaoftime,
+					],
 				},
 				{
 					subpath: '/MP3/12 Mattias Haggstrom Gerdt - Hey, Listen [Ocarina of Time - Legend of Zelda].mp3',
@@ -183,6 +244,10 @@ export const OCRA0029: AlbumWithArt = {
 					index: 12,
 					credits: [
 						mattiashaggstromgerdt,
+					],
+					games: [
+						ocarinaoftime,
+						thelegendofzelda,
 					],
 				},
 				{
@@ -195,6 +260,9 @@ export const OCRA0029: AlbumWithArt = {
 							url: 'https://twitter.com/kozilekmusic',
 						},
 					],
+					games: [
+						majora,
+					],
 				},
 				{
 					subpath: '/MP3/14 Gryzor87 - Ilia\'s Adagio Meets Dark March [Twilight Princess - A Link to the Past].mp3',
@@ -206,6 +274,10 @@ export const OCRA0029: AlbumWithArt = {
 							url: 'https://www.youtube.com/user/gryzor87',
 						},
 					],
+					games: [
+						twilightprincess,
+						alinktothepast,
+					],
 				},
 				{
 					subpath: '/MP3/15 Dong - Ballad of the Wind Fish (Kaze no Sakana Mix) [Link\'s Awakening].mp3',
@@ -213,6 +285,9 @@ export const OCRA0029: AlbumWithArt = {
 					index: 15,
 					credits: [
 						dong,
+					],
+					games: [
+						linksawakening,
 					],
 				},
 				{
@@ -225,6 +300,9 @@ export const OCRA0029: AlbumWithArt = {
 							url: 'https://www.youtube.com/user/treycwong',
 						},
 					],
+					games: [
+						ocarinaoftime,
+					],
 				},
 				{
 					subpath: '/MP3/17 SoulEye - Link\'s Final Battle [Link\'s Adventure].mp3',
@@ -236,6 +314,9 @@ export const OCRA0029: AlbumWithArt = {
 							url: 'https://twitter.com/MPSouleye',
 						},
 					],
+					games: [
+						adventureoflink,
+					],
 				},
 				{
 					subpath: '/MP3/18 Matheus Manente - Zelda\'s Graceful Nightmare [OOT - MM - WW].mp3',
@@ -243,6 +324,11 @@ export const OCRA0029: AlbumWithArt = {
 					index: 18,
 					credits: [
 						matheusmanente,
+					],
+					games: [
+						ocarinaoftime,
+						majora,
+						windwaker,
 					],
 				},
 			],

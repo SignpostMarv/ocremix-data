@@ -26,6 +26,8 @@ import { artist as xprtnovice } from '../artists/12064';
 
 import { artist as oceansandrew } from '../artists/4729';
 
+import { game as chronotrigger } from '../games/16';
+
 const front: ImageSource = {
 	subpath: '/Artwork/Front [OA].png',
 	width: 1024,
@@ -118,6 +120,9 @@ export const OCRA0060: AlbumWithArt = {
 		],
 		background,
 	},
+	games: [
+		chronotrigger,
+	],
 	discs: [
 		{
 			name: '',

@@ -39,11 +39,18 @@ import {artist as tokuhikouwabo} from '../artists/52';
 import {artist as tomonorisawada} from '../artists/910';
 import {artist as yoshiakikashima} from '../artists/10276';
 
+import { game as sonic3 } from '../games/24';
+import { game as sonicandknuckles } from '../games/147';
+
 export const OCRA0008: Album = {
 	id: 9,
 	catalogNumber: 'OCRA-0008',
 	path: '/Albums/Sonic 3 and Knuckles - Project Chaos',
 	name: 'Sonic 3 and Knuckles - Project Chaos',
+	games: [
+		sonic3,
+		sonicandknuckles,
+	],
 	discs: [
 		{
 			name: 'Disc 1',

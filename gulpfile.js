@@ -42,5 +42,5 @@ exports.ts = () => {
 };
 
 exports.default = parallel(...[
-	exports.eslint,
+	exports.ts,
 ]);

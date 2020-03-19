@@ -37,6 +37,10 @@ import { artist as dish } from '../artists/15577';
 import { artist as protodome } from '../artists/5178';
 */
 
+import { game as sonic1 } from '../games/22';
+import { game as sonic1ms } from '../games/713';
+import { game as soniccd } from '../games/146';
+
 const cover = {
 	subpath: '/Artwork/Front embed.png',
 	width: 700,
@@ -54,6 +58,11 @@ export const OCRA0025: AlbumWithArt = {
 	catalogNumber: 'OCRA-0025',
 	path: '/Albums/Sonic the Hedgehog - The Sound of Speed',
 	name: 'Sonic the Hedgehog - The Sound of Speed',
+	games: [
+		sonic1,
+		sonic1ms,
+		soniccd,
+	],
 	art: {
 		covers: [
 			cover,
@@ -84,6 +93,9 @@ export const OCRA0025: AlbumWithArt = {
 						halc,
 						oceansandrew,
 					],
+					games: [
+						sonic1,
+					],
 				},
 				{
 					subpath: '/MP3/02 The Sound of Speed.mp3',
@@ -92,6 +104,9 @@ export const OCRA0025: AlbumWithArt = {
 					credits: [
 						oceansandrew,
 						scaredsim,
+					],
+					games: [
+						sonic1,
 					],
 				},
 				{
@@ -103,6 +118,9 @@ export const OCRA0025: AlbumWithArt = {
 						miearth,
 						protodome,
 					],
+					games: [
+						sonic1,
+					],
 				},
 				{
 					subpath: '/MP3/04 Subsonic Sparkle.mp3',
@@ -110,6 +128,10 @@ export const OCRA0025: AlbumWithArt = {
 					index: 4,
 					credits: [
 						gamebox,
+					],
+					games: [
+						sonic1,
+						soniccd,
 					],
 				},
 				{
@@ -119,6 +141,9 @@ export const OCRA0025: AlbumWithArt = {
 					credits: [
 						halc,
 					],
+					games: [
+						sonic1,
+					],
 				},
 				{
 					subpath: '/MP3/06 Bubble Junkie.mp3',
@@ -127,6 +152,9 @@ export const OCRA0025: AlbumWithArt = {
 					credits: [
 						benbriggs,
 					],
+					games: [
+						sonic1,
+					],
 				},
 				{
 					subpath: '/MP3/07 Fifty Rings to Ride.mp3',
@@ -134,6 +162,9 @@ export const OCRA0025: AlbumWithArt = {
 					index: 7,
 					credits: [
 						joshuamorse,
+					],
+					games: [
+						sonic1,
 					],
 				},
 				{
@@ -144,6 +175,9 @@ export const OCRA0025: AlbumWithArt = {
 						drumultima,
 						harmony,
 					],
+					games: [
+						sonic1,
+					],
 				},
 				{
 					subpath: '/MP3/09 Hogtied.mp3',
@@ -153,6 +187,10 @@ export const OCRA0025: AlbumWithArt = {
 						brandonstrader,
 						rexy,
 					],
+					games: [
+						sonic1,
+						sonic1ms,
+					],
 				},
 				{
 					subpath: '/MP3/10 Caos.mp3',
@@ -160,6 +198,9 @@ export const OCRA0025: AlbumWithArt = {
 					index: 10,
 					credits: [
 						josethebronxrican,
+					],
+					games: [
+						sonic1,
 					],
 				},
 				{
@@ -169,6 +210,9 @@ export const OCRA0025: AlbumWithArt = {
 					credits: [
 						willrock,
 					],
+					games: [
+						sonic1,
+					],
 				},
 				{
 					subpath: '/MP3/12 Final Progression.mp3',
@@ -176,6 +220,9 @@ export const OCRA0025: AlbumWithArt = {
 					index: 12,
 					credits: [
 						jewbei,
+					],
+					games: [
+						sonic1,
 					],
 				},
 				{
@@ -186,6 +233,9 @@ export const OCRA0025: AlbumWithArt = {
 						brandonstrader,
 						halc,
 						willrock,
+					],
+					games: [
+						sonic1,
 					],
 				},
 			],

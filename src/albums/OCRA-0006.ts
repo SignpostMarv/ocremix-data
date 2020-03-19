@@ -23,6 +23,8 @@ import { artist as yasunorimitsuda } from '../artists/4';
 
 import { artist as eonblue } from '../artists/8363';
 
+import { game as chronotrigger } from '../games/16';
+
 const CD1Label = {
 	subpath: '/Artwork/CD1 Label.jpg',
 	width: 1417,
@@ -53,6 +55,7 @@ export const OCRA0006: AlbumWithArt = {
 	catalogNumber: 'OCRA-0006',
 	path: '/Albums/Chrono Symphonic',
 	name: 'Chrono Symphonic',
+	games: [ chronotrigger ],
 	art: {
 		covers: [
 			CD1Label,

@@ -1,9 +1,12 @@
 {
 	"name": "ocremix-data",
-	"version": "0.8.1",
+	"version": "0.9.0",
 	"description": "Data relating to OC ReMix content",
 	"author": "SignpostMarv",
 	"license": "Apache-2.0",
+	"scripts": {
+		"build": "npm install && gulp"
+	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^2.24.0",
 		"@typescript-eslint/parser": "^2.24.0",
