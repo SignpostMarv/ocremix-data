@@ -10,7 +10,7 @@ const uglify = require('gulp-uglify-es').default;
 const tsProject = typescript.createProject('./tsconfig.json')();
 const merge = require('merge-stream');
 
-exports.ts = () => {
+exports.eslint = () => {
 	const ts = src('./src/**/*.ts').pipe(
 		sourcemaps.init()
 	).pipe(
@@ -25,6 +25,12 @@ exports.ts = () => {
 		tsProject
 	);
 
+	return ts;
+};
+
+exports.ts = () => {
+	const ts = exports.eslint();
+
 	return merge(
 		ts.js.pipe(
 			uglify()
@@ -36,5 +42,5 @@ exports.ts = () => {
 };
 
 exports.default = parallel(...[
-	exports.ts,
+	exports.eslint,
 ]);
